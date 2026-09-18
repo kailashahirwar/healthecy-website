@@ -22,7 +22,7 @@ export default function AboutPage() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end lg:gap-20">
           <div>
             <p className="text-sm font-bold text-accent">About Healthecy</p>
-            <h1 className="mt-4 max-w-3xl text-5xl font-extrabold tracking-[-0.06em] text-primary sm:text-6xl">
+            <h1 className="mt-4 max-w-3xl whitespace-pre-line text-5xl font-extrabold tracking-[-0.06em] text-primary sm:text-6xl">
               Healthcare, made easier.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">

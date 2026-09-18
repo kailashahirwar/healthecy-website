@@ -86,7 +86,7 @@ export default function HomePage() {
               <HeartHandshake size={16} className="text-accent" />
               Connected healthcare support
             </p>
-            <h1 className="mt-6 max-w-xl text-5xl font-extrabold leading-[1.02] tracking-[-0.065em] text-primary sm:text-6xl lg:text-7xl">
+            <h1 className="mt-6 max-w-xl whitespace-pre-line text-5xl font-extrabold leading-[1.02] tracking-[-0.065em] text-primary sm:text-6xl lg:text-7xl">
               Healthcare, made easier.
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">
@@ -102,10 +102,9 @@ export default function HomePage() {
               </Link>
               <Link
                 href="/services"
-                className="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-primary bg-background px-6 py-6 text-sm font-bold text-primary hover:bg-secondary"
+                className="inline-flex h-10 items-center justify-center rounded-full border border-primary bg-background px-6 py-6 text-sm font-bold text-primary hover:bg-secondary"
               >
                 Explore Our Services
-                <ArrowRight size={17} />
               </Link>
             </div>
           </div>

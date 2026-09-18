@@ -32,14 +32,17 @@ type PageIntroProps = {
   eyebrow: string;
   title: string;
   body: string;
+  titleClassName?: string;
 };
 
-export function PageIntro({ eyebrow, title, body }: PageIntroProps) {
+export function PageIntro({ eyebrow, title, body, titleClassName = "max-w-4xl" }: PageIntroProps) {
   return (
     <section className="bg-secondary px-5 py-16 lg:px-8 lg:py-24">
       <div className="mx-auto max-w-7xl">
         <p className="text-sm font-bold text-accent">{eyebrow}</p>
-        <h1 className="mt-4 max-w-4xl text-5xl font-extrabold tracking-[-0.06em] text-primary sm:text-6xl">{title}</h1>
+        <h1 className={`mt-4 ${titleClassName} whitespace-pre-line text-5xl font-extrabold tracking-[-0.06em] text-primary sm:text-6xl`}>
+          {title}
+        </h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">{body}</p>
       </div>
     </section>

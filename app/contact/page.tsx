@@ -22,6 +22,7 @@ export default function ContactPage() {
       <PageIntro
         eyebrow="Talk to Healthecy"
         title="Let’s make your next healthcare step easier."
+        titleClassName="max-w-3xl"
         body="Tell us what you need. Our team will help you understand an appropriate next step for your healthcare journey."
       />
       <section className="px-5 py-16 lg:px-8 lg:py-24">

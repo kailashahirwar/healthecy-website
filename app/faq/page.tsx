@@ -14,6 +14,7 @@ export default function FaqPage() {
       <PageIntro
         eyebrow="Frequently asked questions"
         title="Clear answers for your healthcare journey."
+        titleClassName="max-w-3xl"
         body="Learn how Healthecy supports patients, families, healthcare professionals and international visitors with coordinated, patient-centred care."
       />
       <section className="px-5 py-16 lg:px-8 lg:py-24">

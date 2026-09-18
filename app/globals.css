@@ -30,14 +30,20 @@ body {
   color: #0a0a0a;
 }
 
-h1,
-h2,
-h3,
-h4,
-.font-display {
-  font-family: var(--font-display);
-  letter-spacing: -0.05em;
-  color: var(--color-primary);
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.05em;
+    color: var(--color-primary);
+  }
+
+  h1 {
+    white-space: pre-line;
+  }
 }
 
 .bg-primary h1,
